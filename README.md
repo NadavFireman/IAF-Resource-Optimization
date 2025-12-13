@@ -1,5 +1,9 @@
 # Operational Resource Optimization System (IAF)
 
+### Live Project Demo
+You can view the interactive dashboard and results visualization of the optimization system here:
+[**Interactive Dashboard (Base44)**](https://skyward-ops-02d143a6.base44.app)
+
 ### Project Overview
 This project focuses on optimizing operational personnel management for Israeli Air Force (IAF) squadrons. 
 By analyzing historical operational data and scheduling constraints, we developed a data-driven model to improve readiness, reduce workload bottlenecks, and optimize shift scheduling during routine and emergency scenarios.
