@@ -6,24 +6,26 @@ You can view the interactive dashboard and results visualization of the optimiza
 
 ### Project Overview
 This project focuses on optimizing operational personnel management for Israeli Air Force (IAF) squadrons. 
-By analyzing historical operational data and scheduling constraints, we developed a data-driven model to improve readiness, reduce workload bottlenecks, and optimize shift scheduling during routine and emergency scenarios.
+Developed under the constraints of the "Iron Swords" war, it transitions fragile, manual spreadsheet scheduling into a robust, data-driven model. By analyzing historical operational data and scheduling constraints, we built a decision-support engine to improve readiness, reduce workload bottlenecks, and optimize shift scheduling under extreme routine and emergency scenarios.
 
-**Grade:** 92 (Final Project, B.Sc. Industrial Engineering & Management)
+**Grade:** 92 (Final Project, B.Sc. Industrial Engineering & Management, Shenkar College)
 
 ### Key Features & Methodology
-* **Operations Research:** Defined the optimization problem (minimizing workload imbalance, maximizing readiness) subject to IAF operational constraints.
-* **Data Analysis (EDA):** Processed and cleaned raw operational logs to identify root causes of scheduling errors and non-compliant assignments.
-* **Statistical Analysis:** Conducted correlation analysis between workload metrics and error rates. 
-* **KPI Definition:** Defined and measured key performance indicators such as *Rest Compliance*, *Readiness Level*, and *Shift Imbalance*.
+* **Operations Research:** Defined the optimization problem (minimizing workload imbalance, maximizing readiness) subject to strict IAF operational constraints and mandatory rest regulations.
+* **Exploratory Data Analysis (EDA):** Processed and cleaned raw operational logs to identify root causes of scheduling errors, crew burnout, and non-compliant assignments.
+* **Statistical Analysis:** Conducted correlation analysis between workload metrics, exception rates, and overall readiness levels.
+* **KPI Definition:** Established measurable key performance indicators such as *Rest Compliance*, *Readiness Level*, and *Shift Imbalance*.
 
 ### Tools & Technologies
-* **Programming:** Python (used in the `/code` folder)
-* **Libraries:** Pandas, NumPy, Seaborn, Matplotlib 
-* **Methodologies:** Operations Research, Statistical Analysis, Process Improvement.
+* **Programming:** Python
+* **Libraries:** Pandas, NumPy, Seaborn, Matplotlib
+* **Application / UI:** Base44 (for the interactive decision-support dashboard)
+* **Methodologies:** Operations Research, Statistical Analysis, Process Improvement
 
-### Repository Structure
-* **`code/`**: Contains the Python notebook (`quantitative_data_analysis.ipynb`) for data cleaning, visualization, and statistical analysis.
-* **`data/`**: Contains the anonymized operational data file (`operational_metrics_data.xlsx`), which includes multiple sheets for different data resolutions (e.g., Weekly Data, Monthly Data).
-* **`docs/`**: Contains the full academic report (`Project_Final_Report.pdf`), detailing the methodology, operational research, and final recommendations.
+### Repository Files
+* **`quantitative_data_analysis.ipynb`**: The Jupyter Notebook containing data cleaning, visualization, and statistical analysis.
+* **`operational_metrics_data.xlsx`**: The anonymized operational dataset, featuring multiple data resolutions (Weekly and Monthly data).
+* **`Project_Final_Report.pdf`**: The full academic report detailing the methodology, operational research, optimization logic, and final recommendations (Hebrew).
 
-*Note: All data and names have been anonymized to comply with information security regulations.*
+---
+*Note: All data, names, and specific operational details have been strictly anonymized to comply with military information security regulations.*
