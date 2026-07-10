@@ -1,10 +1,12 @@
-# Operational Resource Optimization System (IAF)
+# B.Sc. Final Project — IAF Resource Optimization (Grade 92)
 
 ## Live Project Demo
 **[Interactive Dashboard (Base44)](https://skyward-ops-02d143a6.base44.app)** — *runs on fully synthesized data, re-skinned as a fictional civilian company per military information-security requirements.*
 
 ## Project Overview
 Crew-scheduling optimization for Israeli Air Force (IAF) squadrons, developed during the "Iron Swords" war. A full operational year — 52 weeks, 39,000+ crew assignments, ~120 aircrew members — was analyzed to replace manual Excel-based scheduling with a data-driven decision-support system, powered by a linear-programming assignment model and an interactive prototype for squadron commanders.
+
+**My role:** Technical lead of the project — data analysis, optimization-model formulation, and development of the Base44 decision-support prototype.
 
 ## Key Features & Methodology
 - **Operations Research:** Binary linear-programming assignment model — 3 objective functions and 9 hard-constraint families (qualifications, medical fitness, availability, rest intervals, workload caps, instructor pairing); full formulation in the report.
