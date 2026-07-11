@@ -1,4 +1,4 @@
-# B.Sc. Final Project — IAF Resource Optimization (Grade 92)
+# B.Sc. Final Project — IAF Resource Optimization (Grade 92, Shenkar)
 
 ## Live Project Demo
 **[Interactive Dashboard (Base44)](https://skyward-ops-02d143a6.base44.app)** — *runs on fully synthesized data, re-skinned as a fictional civilian company per military information-security requirements.*
@@ -22,6 +22,3 @@ Python (Pandas, NumPy, SciPy, Seaborn, Matplotlib) · Base44 · Operations Resea
 - **`quantitative_data_analysis.ipynb`**: Data cleaning, trend visualization, error profiling, and correlation analysis (heatmap, regression scatters).
 - **`operational_metrics_data.xlsx`**: Anonymized dataset — 52 weekly records, 12 monthly aggregates, and a statistical-summary sheet.
 - **`Project_Final_Report.pdf`**: Full academic report (Hebrew + English executive summary) — methodology, findings, complete model formulation, and commander feedback.
-
----
-*Final Project (Grade: 92) — B.Sc. Industrial Engineering & Management, Shenkar College.*
